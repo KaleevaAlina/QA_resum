@@ -159,7 +159,7 @@ h2 {
 .hr a {
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
+  padding-left: 10px;
   font-size: 20px;
   text-decoration: none;
   color: #e08c6a;
