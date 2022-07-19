@@ -6,12 +6,12 @@
 }
 html, body{
   height: 100%;
+  line-height: 1.5;	
 }
 .wrapper{
   height: 100%;          
   display: flex;
-  flex-direction: column;
-  line-height: 1.5;	
+  flex-direction: column;	
 }
 .header{
   background: purple;
