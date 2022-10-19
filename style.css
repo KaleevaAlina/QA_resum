@@ -2,11 +2,24 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Simonetta';
+  font: normal 12pt/1.3em Arial, sans-serif;
 }
 html, body{
   height: 100%;
-  line-height: 1.3;	
+  line-height: 1.2;	
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: normal;  
+  /* font-weight: normal; */
+  src: url(./fonts/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  font-style: normal;  
+  font-weight: normal; 
+  src: url(./fonts/Roboto-Light.ttf) format('truetype');
 }
 .wrapper{
   height: 100%;          
@@ -21,8 +34,9 @@ html, body{
   padding-top: 25px;
 }
 h1 {
-  font-weight: 900;
-  font-size: 30px;
+  font-family: 'Roboto-Light'; 	
+  font-weight: 800;
+  font-size: 26px;
   display: flex;
 }
 h2 {
@@ -92,7 +106,8 @@ h2 {
   padding-bottom: 10px;
 }
 #work {
-  padding-bottom: 10px;	
+  padding-bottom: 10px;
+  font-weight: bold;  
 }
 .three-blocks-img{
   max-width: 90%;  
@@ -130,7 +145,7 @@ h2 {
 .phone a, .mail a {
   text-decoration: none;	
   color: #000000;
-  font-size: 20px;
+  font: normal 12pt/1.3em Arial, sans-serif;
 }
 .mail{
   font-size: 20px;
@@ -138,7 +153,7 @@ h2 {
   padding-bottom: 10px;
 }
 .birth{
-  font-size: 20px;
+  font: normal 12pt/1.3em Arial, sans-serif;
   color: #000000;
   padding-bottom: 20px;
 }
