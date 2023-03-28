@@ -109,6 +109,8 @@ h2 {
   padding-bottom: 10px;
   font-weight: bold;  
 }
+b {font-weight: bold;
+}
 .three-blocks-img{
   max-width: 90%;  
   background: #ffffff;  
